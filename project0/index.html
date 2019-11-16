@@ -1,29 +1,106 @@
 <!DOCTYPE html>
 
 <head>
-    <title>My first Webpage!</title>
+    <title>My first website!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>                
-            <li class="nav-item">
-                <a class="nav-link" href="greenland.html">Greenland</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="iceland.html">Iceland</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="himalayan.html">Himalayan</a>
-            </li>
-        </ul>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center" style="background-color: #e3f2fd;"> -->
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="greenland.html">Greenland</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iceland.html">Iceland</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="himalayan.html">Himalayan</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div>
-        <img src="img/header_img2.jpg" alt="The secret life of Walter Mitty", width="98%">
+        <img src="img/header_img3.jpg" alt="The secret life of Walter Mitty" width="100%" class="img-fluid"
+            alt="Responsive image">
     </div>
+    <div class="container">
+        <h4>Best travel season</h4>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Spring</th>
+                    <th scope="col">Summer</th>
+                    <th scope="col">Autumn</th>
+                    <th scope="col">Winter</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Greenland</th>
+                    <td>Yes</td>
+                    <td></td>
+                    <td>
+                        </tdh>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <th scope="row">Iceland</th>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <th scope="row">Himalayan</th>
+                    <td>Yes</td>
+                    <td></td>
+                    <td>Yes</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4>This website is inspired by the movie "The secret life of Walter Mitty".</h4>
+                <br>
+                <p class="lead">We have selected three places: Greenland, Iceland and Himalayan that the protagonist has
+                    traveled in the movie and provide some information for those who are interested to travel there.</p>
+                <p class="lead">For many people, if I can't be a hero, if I can't get rid of the dull, at least I can
+                    let myself experience different life and different world, even if it is only temporary. This strange
+                    feeling grows stronger with growth. </p>
+                <p class="lead">The essence of the film is dreaming. Dreams allow you to have vision, touch, hearing,
+                    smell and immersiveness. Crossing in dreams and real life is still a profound artistic means.</p>
+            </div>
+            <div class="col-sm-6">
+                <h4>Golden sentences in in the movie</h4>
+                <br>
+                <blockquote class="blockquote">
+                    <p class="mb-0">Walter Mitty: To see the world, things dangerous to come to, to see behind walls,
+                        draw closer, to find each other, and to feel. That is the purpose of LIFE.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">The Secret Life of Walter Mitty</cite>
+                    </footer>
+                    <br>
+                    <p class="mb-0">Sean O'Connell: Sometimes I don't. If I like a moment, for me, personally, I don't
+                        like to have the distraction of the camera. I just want to stay in it.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">The Secret Life of Walter Mitty</cite>
+                    </footer>
+                    <br>
+                    <p class="mb-0">Sean O'Connell: Beautiful things don't ask for attention.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">The Secret Life of Walter Mitty</cite>
+                    </footer>
+                </blockquote>
+            </div>
 
+        </div>
+    </div>
 </body>
