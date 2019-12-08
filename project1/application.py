@@ -21,6 +21,14 @@ engine = create_engine(os.getenv("DATABASE_URL"))
 db = scoped_session(sessionmaker(bind=engine))
 
 
+# Homepage
 @app.route("/")
 def index():
-    return "Project 1: TODO"
+    status = 'loggedout'  # default status is logged out
+    try:
+        username = session['username']
+        status = 'loggedin'
+    except KeyError:
+        username = ''
+
+    return render_template('idnex.html', status=status, username=username)
